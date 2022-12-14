@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Update Page{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+<form method="post">
+    {% csrf_token %}
+    <input type="hidden" type="text" name="id" value="{{id}}">
+    {{form.id}}
+        <div class="form-floating mb-3">
+            {{form.task}}
+            <label for="taskinput">Task</label>
+        </div>
+
+
+        <div class="form-floating mb-3">
+            {{form.description}}
+            <label for="descriptioninput">Description</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            {{form.status}}
+            <label for="statusinput">Status</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            {{form.dateoftask}}
+            <label for="dateinput">Date</label>
+        </div>
+ <input class="btn form-control btn-primary" type="submit" value="Submit">
+</form>
+    </div>
+
+    <div class="col-md-2"></div>
+
+
+</div>
+{% endblock %}
