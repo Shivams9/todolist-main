@@ -1,4 +1,4 @@
-# todolist-main
+# ToDolist-main Project
  
 ![todoproj 1](https://user-images.githubusercontent.com/91686685/207587142-a2b1f58f-d9b0-4e34-a0f5-575b4a2e4a26.JPG)
 Data saved:![todoproj 2(saved)](https://user-images.githubusercontent.com/91686685/207587339-630dab6a-1b85-40a2-8d26-2a8ab491ec20.JPG)
